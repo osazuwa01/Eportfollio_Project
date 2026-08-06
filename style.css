@@ -146,3 +146,14 @@ nav {
     margin-bottom: 28px;
     text-align: center;
 }
+
+.about-me__links {
+    font-size: 20px;
+    color: #242424;
+    text-decoration: none;
+    padding: 0 16px;
+}
+
+a {
+    text-decoration: none;
+}
