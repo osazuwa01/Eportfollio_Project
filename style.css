@@ -44,7 +44,7 @@ li {
 
 .row {
   width: 100%;
-  width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -201,7 +201,30 @@ a {
 /* TECH - STACK */
 
 .language__img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: all 300ms ease;
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 49px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
 }
